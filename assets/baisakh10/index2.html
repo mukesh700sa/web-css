@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Css</title>
+
+
+
+    <link rel="icon" href="assets/images/averie-woodard-4nulm-JUYFo-unsplash.jpg">
+
+
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+
+      .box1 {
+        height: 100px;
+        width: 100px;
+        background-color: blueviolet;
+        position: absolute;
+        left: 70px;
+        top: 90px;
+        z-index: 1;
+      }
+
+      .box2 {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(102, 179, 71);
+        position: absolute;
+        top: 100px;
+        z-index: -2;
+      }
+
+      .box3 {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(17, 6, 27);
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        z-index: -1;
+      }
+
+      .box {
+        padding: 50px;
+        width: 500px;
+        height: 500px;
+        border: 1px solid grey;
+
+      }
+    </style>
+
+  </head>
+
+
+  <body>
+    <div class="box">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+
+    </div>
+
+  </body>
+
+</html>
